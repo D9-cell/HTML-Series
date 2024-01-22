@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML in FORM</title>
+</head>
+<body>
+    
+        <form action="url" method="get"
+        accept-charset="UTF-8" autocomplete="off"
+        enctype="text/plain">
+
+        <label for="fName" >First Name</label>
+        <br/>
+        <input type="text" placeholder="First Name" name="" id="fName">
+        <br/>
+        <input type="reset" value="reset">
+        <br/>
+
+        <input type="hidden" name="">
+
+        <br/>
+
+        <input type="range" name="volume" id="volume" 
+        min="1" max="10">
+
+        <br/>
+
+        <select name="editors" id="">
+            <option value="Wife">Wife</option>
+            <option value="Girl Friend">Girl Friend</option>
+        </select>
+
+        <input list="editors" name="editor">
+        <datalist id="editors">
+            <option value="Wife">Wife</option>
+            <option value="Girl Friend">Girl Friend</option>
+        </datalist>
+
+        <br/>
+        <button type="submit"> Submit </button>
+
+
+        </form>
+
+</body>
+</html>
